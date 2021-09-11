@@ -1,2 +1,5 @@
 # 0kaata
-Simple tictactoe game
+
+TicTacToe game
+
+My first JS project, quiet complex to understand
