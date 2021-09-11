@@ -3,6 +3,6 @@
 TicTacToe game
 
 My first JS project
-Complex Approch
+Quiet a complex approch
 
 Caution : Run on mozilla firefox for best result other browser might cause some errors
