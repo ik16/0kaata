@@ -127,6 +127,46 @@ function check()
             }
         }
     }
+     var a=1
+    if (document.getElementById("s"+a).innerHTML==document.getElementById("s"+(a+4)).innerHTML&&document.getElementById("s"+(a+4)).innerHTML==document.getElementById("s"+(a+8)).innerHTML)
+        {
+            if (document.getElementById("s"+a).innerHTML=="X")
+            {
+                alert("X Wins");
+                ++xwin;
+                document.getElementById("xwins").innerHTML=xwin;
+                reset();
+                return 1;
+            }
+            if (document.getElementById("s"+a).innerHTML=="O")
+            {
+                alert("O Wins");
+                ++ywin;
+                document.getElementById("ywins").innerHTML=ywin;
+                reset();
+                return 1;
+            }
+        }
+        var a=3
+    if (document.getElementById("s"+a).innerHTML==document.getElementById("s"+(a+2)).innerHTML&&document.getElementById("s"+(a+2)).innerHTML==document.getElementById("s"+(a+4)).innerHTML)
+        {
+            if (document.getElementById("s"+a).innerHTML=="X")
+            {
+                alert("X Wins");
+                ++xwin;
+                document.getElementById("xwins").innerHTML=xwin;
+                reset();
+                return 1;
+            }
+            if (document.getElementById("s"+a).innerHTML=="O")
+            {
+                alert("O Wins");
+                ++ywin;
+                document.getElementById("ywins").innerHTML=ywin;
+                reset();
+                return 1;
+            }
+        }
     return 0;
 }
 </script>
